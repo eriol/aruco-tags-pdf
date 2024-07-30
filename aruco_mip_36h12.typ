@@ -11,9 +11,9 @@
 }
 
 #if id == "0" [
-    #show_tag("ARUCO_MIP_36h12_ID0.svg", [ID: #id])
+    #show_tag("ARUCO_MIP_36h12_ID0.svg", [ARUCO_MIP_36h12 ID: #id])
 ] else if id == "1" [
-    #show_tag("ARUCO_MIP_36h12_ID1.svg", id)
+    #show_tag("ARUCO_MIP_36h12_ID1.svg", [ARUCO_MIP_36h12 ID: #id])
 ] else if id == "2" [
-    #show_tag("ARUCO_MIP_36h12_ID2.svg", id)
+    #show_tag("ARUCO_MIP_36h12_ID2.svg", [ARUCO_MIP_36h12 ID: #id])
 ]
