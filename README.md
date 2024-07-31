@@ -17,6 +17,7 @@ just id=1 build
 
 In the [extras](extras) directory you can find a 3D model made with OpenSCAD
 that can be used as base for the tags. It's made to be used with a wooden
-skewer.
+skewer. The default hole on the top is 3.5mm, you have to change it if you
+can't find a suitable wooden skewer.
 
 ![3D base model](extras/base.png)
