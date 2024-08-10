@@ -9,9 +9,19 @@ ARUCO tag using `ARUCO_MIP_36h12` dictionary with id 0.
 
 To create a different id, for example id 1, use:
 
-```
+```shell
 just id=1 build
 ```
+
+You can also change size and don't print the caption:
+
+```shell
+just id=0 size=5.5cm is_caption_enabled=false build
+```
+
+> [!NOTE]
+> The tags in SVG format used have a white border so when you specify, for
+> example, 5.5cm you are including this white border.
 
 ## 3D base for the tags
 
