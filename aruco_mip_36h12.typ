@@ -20,25 +20,9 @@
     }
 }
 
-#if id == "0" [
-    #show_tag(
-        "ARUCO_MIP_36h12_ID0.svg",
-        size,
-        is_caption_enabled,
-        [ARUCO_MIP_36h12 ID: #id],
-    )
-] else if id == "1" [
-    #show_tag(
-        "ARUCO_MIP_36h12_ID1.svg",
-        size,
-        is_caption_enabled,
-        [ARUCO_MIP_36h12 ID: #id]
-    )
-] else if id == "2" [
-    #show_tag(
-        "ARUCO_MIP_36h12_ID2.svg",
-        size,
-        is_caption_enabled,
-        [ARUCO_MIP_36h12 ID: #id]
-    )
-]
+#show_tag(
+    "ARUCO_MIP_36h12_ID" + id + ".svg",
+    size,
+    is_caption_enabled,
+    [ARUCO_MIP_36h12 ID: #id],
+)
